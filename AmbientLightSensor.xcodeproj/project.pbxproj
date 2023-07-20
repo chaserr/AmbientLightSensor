@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7C44F172A28385B0064F0B7 /* AmbientLightSensorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C44F162A28385B0064F0B7 /* AmbientLightSensorApp.swift */; };
+		F7C44F192A28385B0064F0B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C44F182A28385B0064F0B7 /* ContentView.swift */; };
+		F7C44F1B2A28385C0064F0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C44F1A2A28385C0064F0B7 /* Assets.xcassets */; };
+		F7C44F1E2A28385C0064F0B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C44F1D2A28385C0064F0B7 /* Preview Assets.xcassets */; };
+		F7C44F252A28388A0064F0B7 /* AmbientLightSensorReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C44F242A28388A0064F0B7 /* AmbientLightSensorReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F73DB3BC2A285B9C0034A3E8 /* AmbientLightSensor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmbientLightSensor.entitlements; sourceTree = "<group>"; };
+		F7C44F132A28385B0064F0B7 /* AmbientLightSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbientLightSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C44F162A28385B0064F0B7 /* AmbientLightSensorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightSensorApp.swift; sourceTree = "<group>"; };
+		F7C44F182A28385B0064F0B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7C44F1A2A28385C0064F0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7C44F1D2A28385C0064F0B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7C44F242A28388A0064F0B7 /* AmbientLightSensorReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightSensorReader.swift; sourceTree = "<group>"; };
+		F7C44F262A283D8D0064F0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7C44F102A28385B0064F0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7C44F0A2A28385B0064F0B7 = {
+			isa = PBXGroup;
+			children = (
+				F7C44F152A28385B0064F0B7 /* AmbientLightSensor */,
+				F7C44F142A28385B0064F0B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7C44F142A28385B0064F0B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7C44F132A28385B0064F0B7 /* AmbientLightSensor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C44F152A28385B0064F0B7 /* AmbientLightSensor */ = {
+			isa = PBXGroup;
+			children = (
+				F73DB3BC2A285B9C0034A3E8 /* AmbientLightSensor.entitlements */,
+				F7C44F262A283D8D0064F0B7 /* Info.plist */,
+				F7C44F162A28385B0064F0B7 /* AmbientLightSensorApp.swift */,
+				F7C44F182A28385B0064F0B7 /* ContentView.swift */,
+				F7C44F242A28388A0064F0B7 /* AmbientLightSensorReader.swift */,
+				F7C44F1A2A28385C0064F0B7 /* Assets.xcassets */,
+				F7C44F1C2A28385C0064F0B7 /* Preview Content */,
+			);
+			path = AmbientLightSensor;
+			sourceTree = "<group>";
+		};
+		F7C44F1C2A28385C0064F0B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7C44F1D2A28385C0064F0B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7C44F122A28385B0064F0B7 /* AmbientLightSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C44F212A28385C0064F0B7 /* Build configuration list for PBXNativeTarget "AmbientLightSensor" */;
+			buildPhases = (
+				F7C44F0F2A28385B0064F0B7 /* Sources */,
+				F7C44F102A28385B0064F0B7 /* Frameworks */,
+				F7C44F112A28385B0064F0B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmbientLightSensor;
+			productName = AmbientLightSensor;
+			productReference = F7C44F132A28385B0064F0B7 /* AmbientLightSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7C44F0B2A28385B0064F0B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F7C44F122A28385B0064F0B7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F7C44F0E2A28385B0064F0B7 /* Build configuration list for PBXProject "AmbientLightSensor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7C44F0A2A28385B0064F0B7;
+			productRefGroup = F7C44F142A28385B0064F0B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7C44F122A28385B0064F0B7 /* AmbientLightSensor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7C44F112A28385B0064F0B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C44F1E2A28385C0064F0B7 /* Preview Assets.xcassets in Resources */,
+				F7C44F1B2A28385C0064F0B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7C44F0F2A28385B0064F0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C44F192A28385B0064F0B7 /* ContentView.swift in Sources */,
+				F7C44F172A28385B0064F0B7 /* AmbientLightSensorApp.swift in Sources */,
+				F7C44F252A28388A0064F0B7 /* AmbientLightSensorReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7C44F1F2A28385C0064F0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7C44F202A28385C0064F0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7C44F222A28385C0064F0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AmbientLightSensor/AmbientLightSensor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmbientLightSensor/Preview Content\"";
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmbientLightSensor/Info.plist;
+				INFOPLIST_KEY_NSSensorKitPrivacyPolicyURL = www.baidu.com;
+				INFOPLIST_KEY_NSSensorKitUsageDescription = "允许使用光传感器";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tongxing.AmbientLightSensor.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7C44F232A28385C0064F0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AmbientLightSensor/AmbientLightSensor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmbientLightSensor/Preview Content\"";
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmbientLightSensor/Info.plist;
+				INFOPLIST_KEY_NSSensorKitPrivacyPolicyURL = www.baidu.com;
+				INFOPLIST_KEY_NSSensorKitUsageDescription = "允许使用光传感器";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tongxing.AmbientLightSensor.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7C44F0E2A28385B0064F0B7 /* Build configuration list for PBXProject "AmbientLightSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C44F1F2A28385C0064F0B7 /* Debug */,
+				F7C44F202A28385C0064F0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C44F212A28385C0064F0B7 /* Build configuration list for PBXNativeTarget "AmbientLightSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C44F222A28385C0064F0B7 /* Debug */,
+				F7C44F232A28385C0064F0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7C44F0B2A28385B0064F0B7 /* Project object */;
+}
